@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc8c22f010b40944b3135227b1f1349, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  PlayerWalkSpeed: 4
+  PlayerRotationSpeed: 10
+  PlayerMaxHP: 100
+  IntervalFindEnemy: 0.15
+  EnemyConfig:
+    m_keys: 0000000001000000
+    m_values:
+    - HP: 100
+      WalkSpeed: 3
+      RotationSpeed: 10
+      AttackSpeed: 1
+      AttackRange: 1
+      AttackDamage: 30
+      EnemyPrefab: {fileID: 9039625045029610688, guid: 0dd280ba00e5b88488df5c8c68e86c35,
+        type: 3}
+    - HP: 500
+      WalkSpeed: 2.5
+      RotationSpeed: 5
+      AttackSpeed: 0.8
+      AttackRange: 1.5
+      AttackDamage: 50
+      EnemyPrefab: {fileID: 9009020774558037882, guid: 1afaff976355c7541ae6e993633e199a,
+        type: 3}
+  WeaponConfig:
+    m_keys: 0102
+    m_values:
+    - Damage: 30
+      FireRate: 4
+      Range: 7
+      ClipSize: 20
+      ReloadTime: 3
+      BulletStat:
+        BulletType: 0
+        Param1: 0
+        Param2: 0
+        Param3: 0
+    - Damage: 100
+      FireRate: 1.5
+      Range: 12
+      ClipSize: 5
+      ReloadTime: 3
+      BulletStat:
+        BulletType: 1
+        Param1: 3
+        Param2: 0
+        Param3: 0

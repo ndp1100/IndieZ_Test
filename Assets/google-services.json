@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "14019992574",
+    "project_id": "unitytemplate-a7669",
+    "storage_bucket": "unitytemplate-a7669.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14019992574:android:cf202b83a31a084a68feaf",
+        "android_client_info": {
+          "package_name": "com.YOGames.Template"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8fcON8jCZnqyv4OuE-iaXznOlilotGwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
